@@ -1,6 +1,5 @@
 name: Run test on PRs
-on:
-  pull_request: {}
+on: [push]
 jobs:
   test:
     name: "Run tests"
